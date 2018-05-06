@@ -212,6 +212,15 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\public\app.public.js" />
+    <Content Include="app\public\index.html" />
+    <Content Include="app\public\modules\home\home.controller.js" />
+    <Content Include="app\public\modules\home\home.html" />
+    <Content Include="app\public\modules\register\register-comp.html" />
+    <Content Include="app\public\modules\register\register.controller.js" />
+    <Content Include="app\public\modules\register\register.html" />
+    <Content Include="app\public\modules\register\register.service.js" />
+    <Content Include="app\public\modules\routes\app.routes.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -270,6 +279,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\admin\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
